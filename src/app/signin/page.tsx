@@ -26,7 +26,7 @@ export default function SignInPage() {
         throw supabaseError;
       }
 
-      router.push('/dashboard');
+      router.push('/dash2');
     } catch (error) {
       setError(error instanceof Error ? error.message : 'An unknown error occurred');
     } finally {
